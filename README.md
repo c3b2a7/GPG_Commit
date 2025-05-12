@@ -11,3 +11,9 @@ gpg --list-secret-keys --keyid-format LONG
 ```bash
 gpg --list-keys --keyid-format LONG
 ```
+
+3. Export Public Keys
+
+```bash
+gpg --armor --export <key id>
+```
