@@ -17,3 +17,9 @@ gpg --list-keys --keyid-format LONG
 ```bash
 gpg --armor --export <key id>
 ```
+
+4. 上传公钥
+
+```bash
+gpg --send-keys <key id>
+```
